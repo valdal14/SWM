@@ -7,83 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01FEC2B02CCBCA7E00FA6505 /* Swift_WorkManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FEC2A72CCBCA7E00FA6505 /* Swift_WorkManager.framework */; };
+		01FEC2D32CCBD91600FA6505 /* SWM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FEC2CA2CCBD91600FA6505 /* SWM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01FEC2B12CCBCA7E00FA6505 /* PBXContainerItemProxy */ = {
+		01FEC2D42CCBD91600FA6505 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 01FEC29E2CCBCA7E00FA6505 /* Project object */;
+			containerPortal = 01FEC2C12CCBD91600FA6505 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 01FEC2A62CCBCA7E00FA6505;
-			remoteInfo = "Swift WorkManager";
+			remoteGlobalIDString = 01FEC2C92CCBD91600FA6505;
+			remoteInfo = SWM;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01FEC2A72CCBCA7E00FA6505 /* Swift_WorkManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swift_WorkManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01FEC2AF2CCBCA7E00FA6505 /* Swift WorkManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift WorkManagerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FEC2CA2CCBD91600FA6505 /* SWM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FEC2D22CCBD91600FA6505 /* SWMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		01FEC2B72CCBCA7E00FA6505 /* Exceptions for "Swift WorkManager" folder in "Swift WorkManager" target */ = {
+		01FEC2DA2CCBD91600FA6505 /* Exceptions for "SWM" folder in "SWM" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			publicHeaders = (
-				Swift_WorkManager.h,
+				SWM.h,
 			);
-			target = 01FEC2A62CCBCA7E00FA6505 /* Swift WorkManager */;
+			target = 01FEC2C92CCBD91600FA6505 /* SWM */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		01FEC2A92CCBCA7E00FA6505 /* Swift WorkManager */ = {
+		01FEC2CC2CCBD91600FA6505 /* SWM */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				01FEC2B72CCBCA7E00FA6505 /* Exceptions for "Swift WorkManager" folder in "Swift WorkManager" target */,
+				01FEC2DA2CCBD91600FA6505 /* Exceptions for "SWM" folder in "SWM" target */,
 			);
-			path = "Swift WorkManager";
+			path = SWM;
 			sourceTree = "<group>";
 		};
-		01FEC2B32CCBCA7E00FA6505 /* Swift WorkManagerTests */ = {
+		01FEC2D62CCBD91600FA6505 /* SWMTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Swift WorkManagerTests";
+			path = SWMTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01FEC2A42CCBCA7E00FA6505 /* Frameworks */ = {
+		01FEC2C72CCBD91600FA6505 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01FEC2AC2CCBCA7E00FA6505 /* Frameworks */ = {
+		01FEC2CF2CCBD91600FA6505 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01FEC2B02CCBCA7E00FA6505 /* Swift_WorkManager.framework in Frameworks */,
+				01FEC2D32CCBD91600FA6505 /* SWM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01FEC29D2CCBCA7E00FA6505 = {
+		01FEC2C02CCBD91600FA6505 = {
 			isa = PBXGroup;
 			children = (
-				01FEC2A92CCBCA7E00FA6505 /* Swift WorkManager */,
-				01FEC2B32CCBCA7E00FA6505 /* Swift WorkManagerTests */,
-				01FEC2A82CCBCA7E00FA6505 /* Products */,
+				01FEC2CC2CCBD91600FA6505 /* SWM */,
+				01FEC2D62CCBD91600FA6505 /* SWMTests */,
+				01FEC2CB2CCBD91600FA6505 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		01FEC2A82CCBCA7E00FA6505 /* Products */ = {
+		01FEC2CB2CCBD91600FA6505 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01FEC2A72CCBCA7E00FA6505 /* Swift_WorkManager.framework */,
-				01FEC2AF2CCBCA7E00FA6505 /* Swift WorkManagerTests.xctest */,
+				01FEC2CA2CCBD91600FA6505 /* SWM.framework */,
+				01FEC2D22CCBD91600FA6505 /* SWMTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,7 +91,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		01FEC2A22CCBCA7E00FA6505 /* Headers */ = {
+		01FEC2C52CCBD91600FA6505 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,99 +101,99 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01FEC2A62CCBCA7E00FA6505 /* Swift WorkManager */ = {
+		01FEC2C92CCBD91600FA6505 /* SWM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01FEC2B82CCBCA7E00FA6505 /* Build configuration list for PBXNativeTarget "Swift WorkManager" */;
+			buildConfigurationList = 01FEC2DB2CCBD91600FA6505 /* Build configuration list for PBXNativeTarget "SWM" */;
 			buildPhases = (
-				01FEC2A22CCBCA7E00FA6505 /* Headers */,
-				01FEC2A32CCBCA7E00FA6505 /* Sources */,
-				01FEC2A42CCBCA7E00FA6505 /* Frameworks */,
-				01FEC2A52CCBCA7E00FA6505 /* Resources */,
+				01FEC2C52CCBD91600FA6505 /* Headers */,
+				01FEC2C62CCBD91600FA6505 /* Sources */,
+				01FEC2C72CCBD91600FA6505 /* Frameworks */,
+				01FEC2C82CCBD91600FA6505 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				01FEC2A92CCBCA7E00FA6505 /* Swift WorkManager */,
+				01FEC2CC2CCBD91600FA6505 /* SWM */,
 			);
-			name = "Swift WorkManager";
+			name = SWM;
 			packageProductDependencies = (
 			);
-			productName = "Swift WorkManager";
-			productReference = 01FEC2A72CCBCA7E00FA6505 /* Swift_WorkManager.framework */;
+			productName = SWM;
+			productReference = 01FEC2CA2CCBD91600FA6505 /* SWM.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		01FEC2AE2CCBCA7E00FA6505 /* Swift WorkManagerTests */ = {
+		01FEC2D12CCBD91600FA6505 /* SWMTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01FEC2BD2CCBCA7E00FA6505 /* Build configuration list for PBXNativeTarget "Swift WorkManagerTests" */;
+			buildConfigurationList = 01FEC2E02CCBD91600FA6505 /* Build configuration list for PBXNativeTarget "SWMTests" */;
 			buildPhases = (
-				01FEC2AB2CCBCA7E00FA6505 /* Sources */,
-				01FEC2AC2CCBCA7E00FA6505 /* Frameworks */,
-				01FEC2AD2CCBCA7E00FA6505 /* Resources */,
+				01FEC2CE2CCBD91600FA6505 /* Sources */,
+				01FEC2CF2CCBD91600FA6505 /* Frameworks */,
+				01FEC2D02CCBD91600FA6505 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				01FEC2B22CCBCA7E00FA6505 /* PBXTargetDependency */,
+				01FEC2D52CCBD91600FA6505 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				01FEC2B32CCBCA7E00FA6505 /* Swift WorkManagerTests */,
+				01FEC2D62CCBD91600FA6505 /* SWMTests */,
 			);
-			name = "Swift WorkManagerTests";
+			name = SWMTests;
 			packageProductDependencies = (
 			);
-			productName = "Swift WorkManagerTests";
-			productReference = 01FEC2AF2CCBCA7E00FA6505 /* Swift WorkManagerTests.xctest */;
+			productName = SWMTests;
+			productReference = 01FEC2D22CCBD91600FA6505 /* SWMTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		01FEC29E2CCBCA7E00FA6505 /* Project object */ = {
+		01FEC2C12CCBD91600FA6505 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					01FEC2A62CCBCA7E00FA6505 = {
+					01FEC2C92CCBD91600FA6505 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					01FEC2AE2CCBCA7E00FA6505 = {
+					01FEC2D12CCBD91600FA6505 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 01FEC2A12CCBCA7E00FA6505 /* Build configuration list for PBXProject "Swift WorkManager" */;
+			buildConfigurationList = 01FEC2C42CCBD91600FA6505 /* Build configuration list for PBXProject "SWM" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 01FEC29D2CCBCA7E00FA6505;
+			mainGroup = 01FEC2C02CCBD91600FA6505;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 01FEC2A82CCBCA7E00FA6505 /* Products */;
+			productRefGroup = 01FEC2CB2CCBD91600FA6505 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01FEC2A62CCBCA7E00FA6505 /* Swift WorkManager */,
-				01FEC2AE2CCBCA7E00FA6505 /* Swift WorkManagerTests */,
+				01FEC2C92CCBD91600FA6505 /* SWM */,
+				01FEC2D12CCBD91600FA6505 /* SWMTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01FEC2A52CCBCA7E00FA6505 /* Resources */ = {
+		01FEC2C82CCBD91600FA6505 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01FEC2AD2CCBCA7E00FA6505 /* Resources */ = {
+		01FEC2D02CCBD91600FA6505 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,14 +203,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01FEC2A32CCBCA7E00FA6505 /* Sources */ = {
+		01FEC2C62CCBD91600FA6505 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01FEC2AB2CCBCA7E00FA6505 /* Sources */ = {
+		01FEC2CE2CCBD91600FA6505 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,15 +220,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01FEC2B22CCBCA7E00FA6505 /* PBXTargetDependency */ = {
+		01FEC2D52CCBD91600FA6505 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01FEC2A62CCBCA7E00FA6505 /* Swift WorkManager */;
-			targetProxy = 01FEC2B12CCBCA7E00FA6505 /* PBXContainerItemProxy */;
+			target = 01FEC2C92CCBD91600FA6505 /* SWM */;
+			targetProxy = 01FEC2D42CCBD91600FA6505 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01FEC2B92CCBCA7E00FA6505 /* Debug */ = {
+		01FEC2DC2CCBD91600FA6505 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -252,7 +252,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.valdal14.Swift-WorkManager";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valdal14.SWM;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -261,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		01FEC2BA2CCBCA7E00FA6505 /* Release */ = {
+		01FEC2DD2CCBD91600FA6505 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -285,7 +285,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.valdal14.Swift-WorkManager";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valdal14.SWM;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -294,7 +294,7 @@
 			};
 			name = Release;
 		};
-		01FEC2BB2CCBCA7E00FA6505 /* Debug */ = {
+		01FEC2DE2CCBD91600FA6505 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -360,7 +360,7 @@
 			};
 			name = Debug;
 		};
-		01FEC2BC2CCBCA7E00FA6505 /* Release */ = {
+		01FEC2DF2CCBD91600FA6505 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +418,7 @@
 			};
 			name = Release;
 		};
-		01FEC2BE2CCBCA7E00FA6505 /* Debug */ = {
+		01FEC2E12CCBD91600FA6505 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -426,14 +426,14 @@
 				DEVELOPMENT_TEAM = P86932NPCW;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.valdal14.Swift-WorkManagerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valdal14.SWMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		01FEC2BF2CCBCA7E00FA6505 /* Release */ = {
+		01FEC2E22CCBD91600FA6505 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -441,7 +441,7 @@
 				DEVELOPMENT_TEAM = P86932NPCW;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.valdal14.Swift-WorkManagerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valdal14.SWMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -451,34 +451,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01FEC2A12CCBCA7E00FA6505 /* Build configuration list for PBXProject "Swift WorkManager" */ = {
+		01FEC2C42CCBD91600FA6505 /* Build configuration list for PBXProject "SWM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01FEC2BB2CCBCA7E00FA6505 /* Debug */,
-				01FEC2BC2CCBCA7E00FA6505 /* Release */,
+				01FEC2DE2CCBD91600FA6505 /* Debug */,
+				01FEC2DF2CCBD91600FA6505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01FEC2B82CCBCA7E00FA6505 /* Build configuration list for PBXNativeTarget "Swift WorkManager" */ = {
+		01FEC2DB2CCBD91600FA6505 /* Build configuration list for PBXNativeTarget "SWM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01FEC2B92CCBCA7E00FA6505 /* Debug */,
-				01FEC2BA2CCBCA7E00FA6505 /* Release */,
+				01FEC2DC2CCBD91600FA6505 /* Debug */,
+				01FEC2DD2CCBD91600FA6505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01FEC2BD2CCBCA7E00FA6505 /* Build configuration list for PBXNativeTarget "Swift WorkManagerTests" */ = {
+		01FEC2E02CCBD91600FA6505 /* Build configuration list for PBXNativeTarget "SWMTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01FEC2BE2CCBCA7E00FA6505 /* Debug */,
-				01FEC2BF2CCBCA7E00FA6505 /* Release */,
+				01FEC2E12CCBD91600FA6505 /* Debug */,
+				01FEC2E22CCBD91600FA6505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 01FEC29E2CCBCA7E00FA6505 /* Project object */;
+	rootObject = 01FEC2C12CCBD91600FA6505 /* Project object */;
 }
